@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Translate Anything</h1>
+        <textarea id="textToTranslate" placeholder="Enter text to translate..."></textarea>
+        <select id="targetLanguage">
+            <option value="DE">German</option>
+            <option value="FR">French</option>
+            <option value="ES">Spanish</option>
+            <!-- Add more languages as needed -->
+        </select>
+        <button onclick="translateText()">Translate</button>
+        <div id="translatedText"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
