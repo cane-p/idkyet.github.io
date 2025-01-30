@@ -2,23 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Translation Page</title>
+    <title>Snake Game</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Translate Anything</h1>
-        <textarea id="textToTranslate" placeholder="Enter text to translate..."></textarea>
-        <select id="targetLanguage">
-            <option value="DE">German</option>
-            <option value="FR">French</option>
-            <option value="ES">Spanish</option>
-            <!-- Add more languages as needed -->
-        </select>
-        <button onclick="translateText()">Translate</button>
-        <div id="translatedText"></div>
-    </div>
-    <script src="script.js"></script>
+    <canvas id="gameCanvas" width="600" height="400"></canvas>
+    <div id="score">Score: 0</div>
+    <script src="snake.js"></script>
 </body>
 </html>
